@@ -4,7 +4,7 @@ def using_until
   puts "Wingardium Leviosa"
   levitation_force += 1
   
-  until counter == 20
+  until levitation_force == 10
   puts "The current number is less than 20."
   counter += 1
 end
